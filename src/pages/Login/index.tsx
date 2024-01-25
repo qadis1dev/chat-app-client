@@ -107,7 +107,7 @@ const Login:React.FC = () => {
                                     />
                                     Loading
                                 </>
-                                : <>Login</>
+                                : "Login"
                             }
                         </Button>
                         <Button
