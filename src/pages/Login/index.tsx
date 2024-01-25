@@ -27,7 +27,7 @@ const Login:React.FC = () => {
 
     //? hooks
     const [initialLoading, setInitialLoading] = useState(true);
-    const [loading, setLoading] = useState(true);
+    const [loading, setLoading] = useState(false);
 
     const navigate = useNavigate();
     const { toast } = useToast();
