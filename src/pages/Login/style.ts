@@ -10,5 +10,6 @@ export default {
     login_button: clsx("w-56 bg-primary hover:bg-accent text-base mb-4 disabled:opacity-70"),
     loading_spinner: clsx("me-3"),
     google_login_button: clsx("w-56 border-primary hover:border-accent hover:bg-accent hover:text-white mb-2"),
+    google_icon: clsx("size-4 me-2"),
     links_button: clsx("text-primary")
 };

@@ -13,6 +13,7 @@ import * as z from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { Oval } from "react-loader-spinner";
 import { useToast } from "@/components/ui/use-toast";
+import { FaGoogle } from "react-icons/fa6";
 
 import {
     formSchema
@@ -114,6 +115,7 @@ const Login:React.FC = () => {
                             type="button"
                             variant="outline"
                         >
+                            <FaGoogle className={style.google_icon} />
                             Login with Google
                         </Button>
                         <Button
