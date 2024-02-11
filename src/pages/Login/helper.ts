@@ -16,12 +16,12 @@ export const formSchema = z.object({
     )
 });
 
-export const login = async (email: string, password: string) => {
-    
-};
-
 export const pageStatusCheck = async () => {
 
+};
+
+export const login = async (email: string, password: string) => {
+    
 };
 
 export const googleLogin = async() => {
